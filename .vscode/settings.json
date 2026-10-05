@@ -1,0 +1,20 @@
+{
+  "files.watcherExclude": {
+    "**/node_modules/**": true,
+    "**/test-results/**": true,
+    "**/playwright-report/**": true,
+    "**/.git/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/test-results": true,
+    "**/playwright-report": true
+  },
+  "files.exclude": {
+    "**/test-results": true,
+    "**/playwright-report": true
+  },
+  "extensions.ignoreRecommendations": false,
+  "javascript.validate.enable": true,
+  "editor.formatOnSave": false
+}

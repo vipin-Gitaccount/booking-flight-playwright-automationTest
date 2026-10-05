@@ -1,0 +1,32 @@
+{
+  "name": "akqa-booking-flights-playwright",
+  "version": "1.0.0",
+  "description": "AKQA SQA takeaway — Booking.com flights search automation (Case 1)",
+  "private": true,
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "install:browsers": "playwright install chromium"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0"
+  },
+  "main": "playwright.config.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vipin-Gitaccount/playwright-flights.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vipin-Gitaccount/playwright-flights/issues"
+  },
+  "homepage": "https://github.com/vipin-Gitaccount/playwright-flights#readme"
+}
